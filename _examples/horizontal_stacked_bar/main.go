@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/wcharczuk/go-chart"
-	"github.com/wcharczuk/go-chart/drawing"
+	"github.com/rogerdwan/go-chart/drawing"
 )
 
 func main() {

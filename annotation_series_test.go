@@ -6,7 +6,7 @@ import (
 
 	"github.com/blend/go-sdk/assert"
 
-	"github.com/wcharczuk/go-chart/drawing"
+	"github.com/rogerdwan/go-chart/drawing"
 )
 
 func TestAnnotationSeriesMeasure(t *testing.T) {
@@ -102,6 +102,7 @@ func TestAnnotationSeriesRender(t *testing.T) {
 	}
 
 	as.Render(r, cb, xrange, yrange, sd)
+
 
 	rr, isRaster := r.(*rasterRenderer)
 	assert.True(isRaster)
